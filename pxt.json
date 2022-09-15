@@ -1,0 +1,35 @@
+{
+    "name": "pm2.5",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "DFRobot_PM2.5_Air_Quality_Sensor": "github:tangjie133/pxt-dfrobot_pm25_air_quality_sensor#v0.0.3",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.1.7",
+        "datalogger": "*",
+        "smarthome-kit": "github:tinkertanker/pxt-smarthome#v2.2.1",
+        "gatorSoil": "github:sparkfun/pxt-gator-soil#v1.1.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.68",
+        "tag": "v3.0.68",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3fd936c8e507d2318fab615facb37d0f07179fb",
+        "target": "5.0.12",
+        "pxt": "6.0.39",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
